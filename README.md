@@ -28,7 +28,32 @@ git config --list
 ```bash
 git init 
 ```
+* Para ver el estado de nuestro cambios:
 
 ```bash
 git status
+```
+* Para preparar nuestros archivos para la zona de stage (preparalos para commit)
+
+```bash
+git add .
+git add nombreDelArchivo.extension
+```
+
+* Crear el registro de los cambios realizados:
+
+```bash
+git commit -m "comentario corto y conciso"
+```
+
+* Para ver una linea de tiempo de los commits que hemos realizado:
+
+```bash
+git log
+```
+
+* Para poder ver el detalle de un commit especifico usamos:
+
+```bash
+git show id-de-commit
 ```
