@@ -23,21 +23,23 @@ git config --global user.name "Mi nombre"
 git config --list
 ```
 
-*  Para inicializar nuestro repositorio en git:
+* Para inicializar nuestro repositorio en git:
 
 ```bash
-git init 
+git init
 ```
+
 * Para ver el estado de nuestro cambios:
 
 ```bash
 git status
 ```
-* Para preparar nuestros archivos para la zona de stage (preparalos para commit)
+
+* Para preparar nuestros archivos para la zona de stage (prepararlos para commit)
 
 ```bash
 git add .
-git add nombreDelArchivo.extension
+git add nombreDelArchivo.extensión
 ```
 
 * Crear el registro de los cambios realizados:
@@ -46,13 +48,12 @@ git add nombreDelArchivo.extension
 git commit -m "comentario corto y conciso"
 ```
 
-* Para ver una linea de tiempo de los commits que hemos realizado:
+*  Para ver una linea de tiempo de los commits que hemos realizado:
 
 ```bash
 git log
 ```
-
-* Para poder ver el detalle de un commit especifico usamos:
+* Para poder ver el detalle de un commit específico usamos:
 
 ```bash
 git show id-de-commit
